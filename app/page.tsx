@@ -1,10 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
+
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <main className={styles.main}>
+      <div>Home</div>
+      {/* <main className={styles.main}>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -13,9 +16,10 @@ export default function Home() {
           height={38}
           priority
         />
+        <Link href="/pages">Link</Link>
         <ol>
           <li>
-            Get started by editing <code>app/page.tsx</code>.
+            Get started by editing22 <code>app/page.tsx</code>.
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
@@ -89,7 +93,7 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
